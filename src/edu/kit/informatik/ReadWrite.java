@@ -9,11 +9,6 @@ import java.io.InputStreamReader;
  */
 public final class ReadWrite {
     
-    /**
-     * Reads text from the "standard" input stream, buffering characters so as to provide for the efficient reading
-     * of characters, arrays, and lines. This stream is already open and ready to supply input data and corresponds
-     * to keyboard input.
-     */
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
 
     public static void writeError(final String message) {
